@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		443D1A5B1C22946B003105AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 443D1A5A1C22946B003105AE /* main.m */; };
+		443D1A5E1C22946B003105AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 443D1A5D1C22946B003105AE /* AppDelegate.m */; };
+		443D1A611C22946B003105AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 443D1A601C22946B003105AE /* ViewController.m */; };
+		443D1A641C22946B003105AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443D1A621C22946B003105AE /* Main.storyboard */; };
+		443D1A661C22946B003105AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443D1A651C22946B003105AE /* Assets.xcassets */; };
+		443D1A691C22946B003105AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443D1A671C22946B003105AE /* LaunchScreen.storyboard */; };
+		443D1A721C2296B9003105AE /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 443D1A711C2296B9003105AE /* GCDAsyncUdpSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		443D1A561C22946B003105AE /* UDPSocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UDPSocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		443D1A5A1C22946B003105AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		443D1A5C1C22946B003105AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		443D1A5D1C22946B003105AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		443D1A5F1C22946B003105AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		443D1A601C22946B003105AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		443D1A631C22946B003105AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		443D1A651C22946B003105AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		443D1A681C22946B003105AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		443D1A6A1C22946B003105AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443D1A701C2296B9003105AE /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		443D1A711C2296B9003105AE /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		443D1A531C22946B003105AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		443D1A4D1C22946B003105AE = {
+			isa = PBXGroup;
+			children = (
+				443D1A581C22946B003105AE /* UDPSocket */,
+				443D1A571C22946B003105AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		443D1A571C22946B003105AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				443D1A561C22946B003105AE /* UDPSocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		443D1A581C22946B003105AE /* UDPSocket */ = {
+			isa = PBXGroup;
+			children = (
+				443D1A5C1C22946B003105AE /* AppDelegate.h */,
+				443D1A5D1C22946B003105AE /* AppDelegate.m */,
+				443D1A5F1C22946B003105AE /* ViewController.h */,
+				443D1A601C22946B003105AE /* ViewController.m */,
+				443D1A621C22946B003105AE /* Main.storyboard */,
+				443D1A701C2296B9003105AE /* GCDAsyncUdpSocket.h */,
+				443D1A711C2296B9003105AE /* GCDAsyncUdpSocket.m */,
+				443D1A651C22946B003105AE /* Assets.xcassets */,
+				443D1A671C22946B003105AE /* LaunchScreen.storyboard */,
+				443D1A6A1C22946B003105AE /* Info.plist */,
+				443D1A591C22946B003105AE /* Supporting Files */,
+			);
+			path = UDPSocket;
+			sourceTree = "<group>";
+		};
+		443D1A591C22946B003105AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				443D1A5A1C22946B003105AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		443D1A551C22946B003105AE /* UDPSocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 443D1A6D1C22946B003105AE /* Build configuration list for PBXNativeTarget "UDPSocket" */;
+			buildPhases = (
+				443D1A521C22946B003105AE /* Sources */,
+				443D1A531C22946B003105AE /* Frameworks */,
+				443D1A541C22946B003105AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UDPSocket;
+			productName = UDPSocket;
+			productReference = 443D1A561C22946B003105AE /* UDPSocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		443D1A4E1C22946B003105AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = JianRongCao;
+				TargetAttributes = {
+					443D1A551C22946B003105AE = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4UC89CVV3Y;
+					};
+				};
+			};
+			buildConfigurationList = 443D1A511C22946B003105AE /* Build configuration list for PBXProject "UDPSocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 443D1A4D1C22946B003105AE;
+			productRefGroup = 443D1A571C22946B003105AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				443D1A551C22946B003105AE /* UDPSocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		443D1A541C22946B003105AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443D1A691C22946B003105AE /* LaunchScreen.storyboard in Resources */,
+				443D1A661C22946B003105AE /* Assets.xcassets in Resources */,
+				443D1A641C22946B003105AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		443D1A521C22946B003105AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				443D1A721C2296B9003105AE /* GCDAsyncUdpSocket.m in Sources */,
+				443D1A611C22946B003105AE /* ViewController.m in Sources */,
+				443D1A5E1C22946B003105AE /* AppDelegate.m in Sources */,
+				443D1A5B1C22946B003105AE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		443D1A621C22946B003105AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				443D1A631C22946B003105AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		443D1A671C22946B003105AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				443D1A681C22946B003105AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		443D1A6B1C22946B003105AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		443D1A6C1C22946B003105AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		443D1A6E1C22946B003105AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zhang weiwei (NNRDZ22SDG)";
+				INFOPLIST_FILE = UDPSocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suning.UDPSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2e7d4a3f-f288-454e-b0b6-fbb663d57f00";
+			};
+			name = Debug;
+		};
+		443D1A6F1C22946B003105AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: zhang weiwei (NNRDZ22SDG)";
+				INFOPLIST_FILE = UDPSocket/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.suning.UDPSocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "2e7d4a3f-f288-454e-b0b6-fbb663d57f00";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		443D1A511C22946B003105AE /* Build configuration list for PBXProject "UDPSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443D1A6B1C22946B003105AE /* Debug */,
+				443D1A6C1C22946B003105AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		443D1A6D1C22946B003105AE /* Build configuration list for PBXNativeTarget "UDPSocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				443D1A6E1C22946B003105AE /* Debug */,
+				443D1A6F1C22946B003105AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 443D1A4E1C22946B003105AE /* Project object */;
+}
