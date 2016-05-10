@@ -22,6 +22,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    NSString *msg = @"1234567890";
+    NSLog(@"%@",[msg substringFromIndex:1]);
+    NSLog(@"%@",[msg substringToIndex:2]);
+    NSLog(@"%@",[msg substringWithRange:NSMakeRange(1, 2)]);
+    
+    
     scoket = [[GCDAsyncUdpSocket alloc] initWithDelegate:self
                                         delegateQueue:dispatch_get_global_queue(0, 0)];
     NSError *error = nil;
